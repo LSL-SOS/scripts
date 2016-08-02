@@ -1,1 +1,7 @@
-default { state_entry() { llSay(0, "Hello World"); } }
+default
+
+{ state_entry()
+
+{ llSay(0, "Hello World");}
+
+  }
