@@ -1,12 +1,12 @@
 default
 {
     state_entry()
-    {
-        llSay(0, "Hello, Avatar!");
-    }
+
 
     touch_start(integer total_number)
+
+//Here we go - I want this hud to talk to channel 0 now.    
     {
-        llSay(0, "Touched.");
+llSay(0, "/me wants steak.");
     }
 }
