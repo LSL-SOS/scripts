@@ -1,1 +1,4 @@
-
+llMessageLinked(1, 0, "menu", ""); should do the trick, if the HUD is the root prim
+http://wiki.secondlife.com/wiki/LlMessageLinked
+link_message should be in the root prim's script, to handle the llMessageLinked sent from the button prim
+a script can hear it's own link messages so you get feedback
