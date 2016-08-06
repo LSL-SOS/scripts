@@ -6,7 +6,7 @@ default
 	touch_start(integer total_number) {
 
 		// speak out loud!
-		llSay(39,"This is a test on touch.");
+		llSay(39,"1");
 
 	}
 
