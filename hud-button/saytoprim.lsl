@@ -1,4 +1,4 @@
-//Here we go - I want this hud to talk to channel 0 now.    
+//Here we go - I want this hud to talk to channel 39 now.    
 
 default
 {
