@@ -3,13 +3,14 @@
 //Here we go - I want this hud to talk to channel 39 now.    
 
 default
+
 {
 
-	touch_start(integer total_number) {
+    touch_start(integer total_number) {
 
-		// speak out loud!
-		llSay(39,"1");
+        // This should talk to channel 39 to a linked prim
+llMessageLinked(1, 39, "1", "")
 
-	}
+    }
 
 }
